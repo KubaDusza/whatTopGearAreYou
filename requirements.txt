@@ -2,5 +2,5 @@ streamlit
 scikit-learn
 scikit-image
 
-opencv-python
+opencv-python-headless
 numpy
