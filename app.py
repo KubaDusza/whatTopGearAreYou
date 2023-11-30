@@ -95,7 +95,7 @@ if user_img is not None:
     for col, img in zip(st.columns(3), images):
         col.image(img, caption=f'Image', use_column_width=True)
 
-    algorithm = st.selectbox("Choose an algorithm", ["Histogram", "SSI", "Feature Matching", "Jaccard", "Cosine"])
+    algorithm = st.selectbox("Choose an algorithm", ["Histogram", "Feature Matching"])#, "SSI", "Jaccard", "Cosine"
 
     if st.button('Compare'):
         # Perform comparison based on the selected algorithm
