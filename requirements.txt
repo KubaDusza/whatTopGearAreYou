@@ -1,6 +1,7 @@
 streamlit
 scikit-learn
-skimage
 scikit-image
+skimage
+
 opencv-python
 numpy
